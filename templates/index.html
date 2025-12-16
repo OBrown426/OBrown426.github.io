@@ -1,0 +1,15 @@
+{% extends "_base.html" %}
+
+{% block content %}
+  {% block header %}
+    {{ index_macros::header(config=config) }}
+  {% endblock header %}
+
+  <main>
+    {% block main %}
+      <section class="portfolio-content">
+        {{ section.content | safe }}
+      </section>
+    {% endblock main %}
+  </main>
+{% endblock content %}

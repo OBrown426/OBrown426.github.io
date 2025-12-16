@@ -1,0 +1,77 @@
+# The URL the site will be built for
+base_url = "https://obrown426.github.io"
+title = "Owen Brown"
+description = "Software Engineer and Lifelong Learner"
+
+# The theme to use
+theme = "radion"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+# Generate RSS feeds
+generate_feeds = true
+
+# Taxonomies required by the theme
+taxonomies = [
+    { name = "categories", feed = true },
+    { name = "tags", feed = true },
+]
+
+[markdown]
+# Whether to do syntax highlighting
+highlight_code = true
+
+# Use class-based highlighting for better security
+highlight_theme = "css"
+
+# Configure syntax themes for dark and light modes
+highlight_themes_css = [
+  { theme = "1337", filename = "syntax/syntax-theme-dark.css" },
+  { theme = "1337", filename = "syntax/syntax-theme-light.css" },
+]
+
+# Enable anchor links on headings
+insert_anchor_links = "heading"
+
+[search]
+index_format = "elasticlunr_json"
+
+[extra]
+# Author information
+author = "Owen Brown"
+
+# GitHub profile link
+github = "https://github.com/obrown426"
+
+# Site title shown on homepage
+radion_title = "Owen Brown"
+
+# Navigation menu
+radion_menu = [
+    { url = "$BASE_URL/", name = "Home" },
+    { url = "$BASE_URL/blog", name = "Blog" },
+    { url = "$BASE_URL/categories", name = "Categories" },
+    { url = "$BASE_URL/tags", name = "Tags" },
+]
+
+# Enhanced codeblocks with clipboard support
+codeblock = true
+
+# Enable search bar
+enable_search = true
+
+# Light/Dark mode toggle
+theme = "toggle"
+
+# Enable favicon
+favicon = true
+
+# Disable LaTeX support by default (can enable later if needed)
+latex = false
+
+# Disable comments for now (can enable with Giscus later)
+comments = false

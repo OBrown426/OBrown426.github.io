@@ -1,0 +1,30 @@
+{% extends "_base.html" %}
+
+{% block content %}
+  {% block header %}
+    {{ index_macros::header(config=config) }}
+  {% endblock header %}
+
+  <main>
+    {% block main %}
+      <header><h1>{{ section.title }}</h1></header>
+
+      {% if section.content %}
+        <section class="section-content">
+          {{ section.content | safe }}
+        </section>
+      {% endif %}
+
+      {% if paginator %}
+        {% for page in paginator.pages %}
+          {{ post_macros::page_in_list(page=page) }}
+        {% endfor %}
+        {{ index_macros::nav(paginator=paginator) }}
+      {% elif section.pages %}
+        {% for page in section.pages %}
+          {{ post_macros::page_in_list(page=page) }}
+        {% endfor %}
+      {% endif %}
+    {% endblock main %}
+  </main>
+{% endblock content %}

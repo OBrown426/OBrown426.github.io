@@ -1,0 +1,102 @@
++++
+title = "Owen Brown"
++++
+
+# About Me
+
+<img src="/profile_pic.jpeg" alt="Profile Picture" width="350" style="display: block; margin: 0 auto;" />
+
+<p style="text-align: center;">
+Welcome to my portfolio! I am a passionate lifelong learner and software engineer. My technical interests include Embedded and Real-Time Systems, Unix Operating Systems (I'm particularly fond of NixOS), and incessantly organizing my life with Emacs (I'm an org-mode aficionado). Outside of software, I love to read and practice martial arts.
+</p>
+
+## Education
+
+### Master of Software Development (MSD)
+**University of Utah, Salt Lake City, UT**
+2024 – 2025
+GPA: 3.96
+
+### BA Chinese, Minor Computer Science
+**University of Utah, Salt Lake City, UT**
+2016 – 2022
+
+---
+
+# Projects
+
+## Automated Hydroponic System with ESP32
+*Embedded Systems MSD Capstone Project – Present*
+
+- Developed embedded Rust firmware for ESP32 microcontroller with I2C sensor integration (pH, TDS, temperature) and GPIO control of peristaltic pumps via relay modules for automated nutrient dosing.
+- Implemented closed-loop feedback control system with real-time monitoring and actuator management, reducing manual intervention and maintaining optimal growing conditions autonomously.
+
+## Home Server Infrastructure
+*Personal DevOps Project – Present*
+
+- Implemented NixOS system administration and configuration management on Raspberry Pi single-board computer.
+- Deployed self-hosted applications including document synchronization, budgeting software, and media streaming.
+
+## WebSocket Chat Server with Client
+*CS 6011: Computer Programming, University of Utah – Fall 2024*
+
+- Multithreaded Java server written from scratch to serve webpages and handle simultaneous clients.
+- JavaScript and React chatroom web-application.
+
+## Learning Management System (LMS)
+*CS 5530: Database Systems, University of Utah – Spring 2022*
+
+- Web application for students, professors, and administrators.
+- C# front-end interfacing with MariaDB back-end via LINQ.
+
+---
+
+# Experience
+
+## Graduate Teaching Assistant
+*Kahlert School of Computing, University of Utah – August 2025 – Present*
+
+- Lead daily programming labs and debugging sessions for graduate-level students in software development courses.
+- Mentor students on problem-solving techniques and software development best practices.
+- Design assessment rubrics and provide detailed code review feedback, improving student code quality.
+- Collaborate with faculty to develop course materials and contribute to curriculum improvements for 3+ courses.
+
+## Associate Software Engineer
+*Navitaire, an Amadeus Company – October 2022 – November 2023*
+
+- Optimized ancillary revenue management systems for 60+ airlines using Microsoft Azure cloud infrastructure.
+- Developed Windows Forms GUI applications in C# and created automated installers with WiX toolkit.
+- Deployed and configured custom software solutions to client-hosted environments via Remote Desktop Protocol.
+- Resolved critical ServiceNow cases by developing SQL database scripts and building API integration tools.
+- Executed Root Cause Analysis (RCA) for database system failures, leveraging telemetry data from Grafana, Dynatrace, Splunk, and SQL Server.
+- Facilitated cross-functional project planning between engineering and support teams, delivering regular stakeholder updates.
+
+---
+
+# Skills
+
+## Programming Languages
+C++, Rust, C#, Java, Kotlin, Python, SQL, JavaScript, R, Bash, Assembly
+
+## Frameworks & Technologies
+.NET, React, REST APIs, Microservices, Full-Stack Development, Object-Oriented Programming
+
+## Cloud & DevOps
+Microsoft Azure, CI/CD Pipelines, Git/GitHub, Teams Foundation Server (TFS), Docker, Linux/Unix Systems
+
+## Databases & Tools
+Microsoft SQL Server, MySQL, CMake, Gradle, Cargo, GDB, LLDB, SSH, JUnit, Catch2
+
+## Software Engineering
+Unit Testing, Test-Driven Development, Debugging, Code Review, Performance Optimization, Concurrency, Networking, Data Structures and Algorithms, Agile Development
+
+## Project Management
+Cross-functional Team Collaboration, Stakeholder Communication
+
+---
+
+# Contact
+
+- **LinkedIn:** [linkedin.com/in/owen-brown-334b6b23b](https://www.linkedin.com/in/owen-brown-334b6b23b/)
+- **GitHub:** [github.com/OBrown426](https://github.com/OBrown426)
+- **Email:** [owen.brown426@gmail.com](mailto:owen.brown426@gmail.com)

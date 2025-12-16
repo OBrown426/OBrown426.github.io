@@ -1,8 +1,9 @@
-name: Publish Org to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -21,25 +22,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Emacs
-        uses: purcell/setup-emacs@master
-        with:
-          version: 29.1
-
-      - name: Export Org to HTML
-        run: |
-          emacs --batch \
-                --eval "(require 'ox-html)" \
-                --visit=index.org \
-                --funcall org-html-export-to-html
-
       - name: Setup Pages
         uses: actions/configure-pages@v4
+
+      - name: Install Zola
+        uses: taiki-e/install-action@v2
+        with:
+          tool: zola@0.21.0
+
+      - name: Build with Zola
+        run: zola build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: ./public
 
   deploy:
     environment:

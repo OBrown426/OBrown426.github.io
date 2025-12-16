@@ -1,7 +1,3 @@
-# Generated HTML output (built by GitHub Actions)
-index.html
-
-# Emacs backup files
-*~
-\#*\#
-.\#*
+public/
+static/syntax/
+.idea/
