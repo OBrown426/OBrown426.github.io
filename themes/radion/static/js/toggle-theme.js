@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
   } else if (storedTheme) {
     currentTheme = storedTheme;
   } else {
-    currentTheme = "dark"; // Default to dark
+    currentTheme = "light"; // Default to light
   }
 
   // Apply the theme
