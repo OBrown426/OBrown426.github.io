@@ -28,7 +28,11 @@ GPA: 3.967
 ## [Automated Hydroponic System with ESP32](https://github.com/OBrown426/embedded-hydroponics-monitor)
 *Embedded Systems MSD Capstone Project – Fall 2025*
 
-<img src="/plants.jpg" alt="Hydroponic System" width="300" style="display: block; margin: 20px auto;" />
+<div style="display: flex; justify-content: center; gap: 10px; margin: 20px 0; flex-wrap: wrap;">
+  <img src="/diy_dwc.jpg" alt="DIY Deep Water Culture System" style="width: 300px; height: auto;" />
+  <img src="/hardware.jpg" alt="ESP32 Hardware Setup" style="width: 300px; height: auto;" />
+  <img src="/plants.jpg" alt="Growing Plants" style="width: 300px; height: auto;" />
+</div>
 
 - Developed embedded Rust firmware for ESP32 microcontroller with I2C sensor integration (pH, TDS, temperature) and GPIO control of peristaltic pumps via relay modules for automated nutrient dosing.
 - Implemented closed-loop feedback control system with real-time monitoring and actuator management, reducing manual intervention and maintaining optimal growing conditions autonomously.
