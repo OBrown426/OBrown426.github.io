@@ -29,9 +29,9 @@ GPA: 3.967
 *Embedded Systems MSD Capstone Project – Fall 2025*
 
 <div style="display: flex; justify-content: center; gap: 10px; margin: 20px 0; flex-wrap: wrap;">
-  <img src="/diy_dwc.jpg" alt="DIY Deep Water Culture System" style="width: 300px; height: auto;" />
-  <img src="/hardware.jpg" alt="ESP32 Hardware Setup" style="width: 300px; height: auto;" />
-  <img src="/plants.jpg" alt="Growing Plants" style="width: 300px; height: auto;" />
+  <img src="/diy_dwc.jpg" alt="DIY Deep Water Culture System" style="width: 250px; height: auto;" />
+  <img src="/hardware.jpg" alt="ESP32 Hardware Setup" style="width: 250px; height: auto;" />
+  <img src="/plants.jpg" alt="Growing Plants" style="width: 250px; height: auto;" />
 </div>
 
 - Developed embedded Rust firmware for ESP32 microcontroller with I2C sensor integration (pH, TDS, temperature) and GPIO control of peristaltic pumps via relay modules for automated nutrient dosing.
