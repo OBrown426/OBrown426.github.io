@@ -25,8 +25,8 @@ GPA: 3.967
 
 # Projects
 
-## [Automated Hydroponic System with ESP32](https://github.com/OBrown426/embedded-hydroponics-monitor)
-*Embedded Systems MSD Capstone Project – Fall 2025*
+## [Automated Hydroponic Control System](https://github.com/OBrown426/embedded-hydroponics-monitor)
+*Embedded Systems Capstone | ESP32 | Rust | no_std | Fall 2025*
 
 <div style="display: flex; justify-content: center; gap: 10px; margin: 20px 0; flex-wrap: wrap;">
   <img src="/diy_dwc.jpg" alt="DIY Deep Water Culture System" style="width: 250px; height: auto;" />
@@ -34,16 +34,15 @@ GPA: 3.967
   <img src="/plants.jpg" alt="Growing Plants" style="width: 250px; height: auto;" />
 </div>
 
-- Developed embedded Rust firmware for ESP32 microcontroller with I2C sensor integration (pH, TDS, temperature) and GPIO control of peristaltic pumps via relay modules for automated nutrient dosing.
-- Implemented closed-loop feedback control system with real-time monitoring and actuator management, reducing manual intervention and maintaining optimal growing conditions autonomously.
+- Architected real-time embedded firmware with 9 concurrent tasks on resource-constrained hardware (520KB SRAM), implementing cooperative multitasking via Embassy async runtime with bounded channel-based IPC and deterministic timing (100Hz sensor polling, 5-second watchdog intervals).
+- Designed six-layer defense-in-depth safety system with dual watchdog architecture (software + hardware WDT), interlock validation, runtime monitoring, and emergency stop mechanisms suitable for safety-critical applications.
+- Integrated I2C/1-Wire sensors (pH, TDS, DS18B20 temperature) with real-time temperature compensation, GPIO-controlled actuators, and closed-loop bang-bang control with configurable deadbands and 1-hour stabilization cooldowns.
 
 ## MSDscript Language Interpreter & GUI
 *CS 6015: Software Engineering, University of Utah – Spring 2025*
 
-- Designed and implemented a functional programming language interpreter in C++23 supporting first-class functions, closures, lexical scoping, and arithmetic/boolean operations with comprehensive expression evaluation.
-- Built recursive descent parser generating Abstract Syntax Trees (AST) with proper operator precedence handling.
-- Developed Qt6 desktop GUI with signal/slot architecture for interactive expression parsing and evaluation.
-- Implemented extensive test suite using Catch2 framework including unit tests and randomized input testing.
+- Designed and implemented a functional programming language interpreter in C++23 with recursive descent parser generating Abstract Syntax Trees (AST), supporting first-class functions, closures, lexical scoping, and arithmetic/boolean operations.
+- Developed Qt6 desktop GUI with signal/slot architecture for interactive expression parsing and evaluation, with extensive Catch2 test suite including unit tests and randomized input testing.
 
 ## WebSocket Chat Server with Client
 *CS 6011: Computer Programming, University of Utah – Fall 2024*
@@ -58,42 +57,41 @@ GPA: 3.967
 ## Graduate Teaching Assistant
 *Kahlert School of Computing, University of Utah – August 2025 – December 2025*
 
-- Lead daily programming labs and debugging sessions for graduate-level students in software development courses.
-- Mentor students on problem-solving techniques and software development best practices.
-- Design assessment rubrics and provide detailed code review feedback, improving student code quality.
-- Collaborate with faculty to develop course materials and contribute to curriculum improvements for 3+ courses.
+- Lead daily programming labs and troubleshooting sessions for graduate-level students, mentoring on problem-solving techniques and software development best practices.
+- Design assessment rubrics plus code review feedback with attention to detail, improving student code quality.
+- Collaborate with faculty to develop course materials on software development lifecycle best practices and contribute to curriculum improvements for 3+ courses.
 
 ## Associate Software Engineer
 *Navitaire, an Amadeus Company – October 2022 – November 2023*
 
 - Optimized ancillary revenue management systems for 60+ airlines using Microsoft Azure cloud infrastructure.
 - Developed Windows Forms GUI applications in C# and created automated installers with WiX toolkit.
-- Deployed and configured custom software solutions to client-hosted environments via Remote Desktop Protocol.
-- Resolved critical ServiceNow cases by developing SQL database scripts and building API integration tools.
-- Executed Root Cause Analysis (RCA) for database system failures, leveraging telemetry data from Grafana, Dynatrace, Splunk, and SQL Server.
-- Facilitated cross-functional project planning between engineering and support teams, delivering regular stakeholder updates.
+- Deployed and configured end-to-end software solutions to client-hosted environments via Remote Desktop Protocol.
+- Performed troubleshooting and resolved critical ServiceNow cases by developing SQL database scripts and building API integration tools ensuring compliance with client requirements.
+- Executed Root Cause Analysis (RCA) for database system failures with meticulous attention to detail, leveraging telemetry data from Grafana, Dynatrace, Splunk, and SQL Server.
+- Facilitated cross-functional project planning and product lifecycle management between engineering and support teams, delivering regular stakeholder updates.
 
 ---
 
 # Skills
 
-## Programming Languages
-C++, Rust, C#, Java, Python, SQL, JavaScript, R, Bash, Assembly, LaTeX
+## Programming
+C, C++, Rust, C#, Java, Python, Assembly (ARM), SQL, Bash
 
-## Frameworks & Technologies
-.NET, React, REST APIs, Microservices, Full-Stack Development, Object-Oriented Programming
+## Embedded Systems
+Microcontrollers (ESP32, STM32), RTOS Concepts, Bare-Metal Development, Interrupt Handling, Watchdog Timers, Memory-Constrained Programming, Cross-Compilation
 
-## Cloud & DevOps
-Microsoft Azure, CI/CD Pipelines, Git/GitHub, Teams Foundation Server (TFS), Docker, Linux/Unix Systems
+## Hardware Interfaces
+I2C, SPI, UART, 1-Wire, GPIO, ADC, PWM
 
-## Databases & Tools
-Microsoft SQL Server, MySQL, CMake, Gradle, Cargo, GDB, LLDB, SSH, JUnit, Catch2
+## Tools & Debugging
+GDB, Logic Analyzer, PlatformIO, OpenOCD, Git, CMake, Cargo, Docker
 
 ## Software Engineering
-Unit Testing, Test-Driven Development, Debugging, Code Review, Performance Optimization, Concurrency, Networking, Data Structures and Algorithms, Agile Development
+Real-Time Systems, Safety-Critical Design, Sensor Fusion, Closed-Loop Control, Unit Testing (Unity, Catch2), SDLC, Code Review
 
-## Project Management
-Cross-functional Team Collaboration, Stakeholder Communication
+## Additional
+Linux/Unix, .NET, Azure, React, REST APIs, Agile, Technical Documentation
 
 ---
 
