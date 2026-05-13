@@ -38,6 +38,15 @@ GPA: 3.967
 - Designed six-layer defense-in-depth safety system with dual watchdog architecture (software + hardware WDT), interlock validation, runtime monitoring, and emergency stop mechanisms suitable for safety-critical applications.
 - Integrated I2C/1-Wire sensors (pH, TDS, DS18B20 temperature) with real-time temperature compensation, GPIO-controlled actuators, and closed-loop bang-bang control with configurable deadbands and 1-hour stabilization cooldowns.
 
+## [Modular Audio Synthesizer](https://github.com/OBrown426/audio-synthesizer)
+*CS 6011: Software Development | JavaFX | Java Sound API | DSP | Fall 2024*
+
+<img src="/synth_screenshot.png" alt="Modular Audio Synthesizer" style="width: 350px; height: auto;" />
+
+- Implemented a DSP engine with 4 waveform generators (sine, square, white noise, linear ramp) and a frequency-modulated oscillator using phase accumulation for FM synthesis, applying real-time signal processing and fixed-format data pipeline design.
+- Engineered a custom 16-bit PCM audio buffer (88,200 samples at 44.1 kHz) with manual little-endian byte encoding, sample clamping to prevent overflow, and direct Java Sound API integration for low-latency playback.
+- Designed a modular signal chain (oscillator → processor → mixer → output) with Model-View separation, drag-and-drop patching UI, and a JUnit 5 test suite validating waveform output.
+
 ## MSDscript Language Interpreter & GUI
 *CS 6015: Software Engineering, University of Utah – Spring 2025*
 
