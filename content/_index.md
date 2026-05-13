@@ -41,7 +41,9 @@ GPA: 3.967
 ## [Modular Audio Synthesizer](https://github.com/OBrown426/audio-synthesizer)
 *CS 6011: Software Development | JavaFX | Java Sound API | DSP | Fall 2024*
 
-<img src="/synth_screenshot.png" alt="Modular Audio Synthesizer" style="width: 350px; height: auto;" />
+<div style="display: flex; justify-content: center; gap: 10px; margin: 20px 0; flex-wrap: wrap;">
+  <img src="/synth_screenshot.png" alt="Modular Audio Synthesizer" style="width: 450px; height: auto;" />
+</div>
 
 - Implemented a DSP engine with 4 waveform generators (sine, square, white noise, linear ramp) and a frequency-modulated oscillator using phase accumulation for FM synthesis, applying real-time signal processing and fixed-format data pipeline design.
 - Engineered a custom 16-bit PCM audio buffer (88,200 samples at 44.1 kHz) with manual little-endian byte encoding, sample clamping to prevent overflow, and direct Java Sound API integration for low-latency playback.
